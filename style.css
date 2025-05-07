@@ -1,0 +1,144 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ body {
+   background-color: cornsilk;
+   color: green,;
+ }
+ 
+ .navbar {
+ background-color: green;
+ color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 2rem;
+ }
+ 
+ .navbar .logo {
+   font-size: 1.8rem;
+   font-weight: bold;
+   color: darkgoldenrod;
+ }
+ 
+ .nav-links {
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+ }
+ 
+ .nav-links a {
+   text-decoration: none;
+   color: white;
+ }
+ 
+.banner {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4rem;
+  overflow: hidden;
+  color:white;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('./IMG_1721.jpeg') no-repeat center center/cover;
+  z-index: 0;
+  filter: brightness(0.4);
+}
+
+.banner-text {
+  position: relative;
+  zoom: 1;
+}
+.banner-text h1 {
+  font-size: 3rem;
+  color: limegreen;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin: 1rem 1rem;
+}
+  
+
+.banner-btn {
+  background-color: green;
+  color: black;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.product-section {
+  padding: 3rem.2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  box-shadow: 0 0 15 rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 0.8rem 0 0.4rem;
+}
+
+.product-card p {
+  color: darkgreen;
+  margin-bottom: 1rem;
+}
+
+.product-card button {
+  background-color: darkgreen;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: green;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer .socials a {
+  color: black;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
